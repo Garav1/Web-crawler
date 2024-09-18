@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class crawler {
+public class DFSCrawler {
     public static void main(String[] args) {
         String url = "https://www.youtube.com/";
         crawl(1,url,new ArrayList<>( ));
